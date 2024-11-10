@@ -1,4 +1,3 @@
-import ButtonKit
 import Combine
 import Foundation
 import Models
@@ -6,6 +5,7 @@ import Network
 import OSLog
 import Observation
 import SwiftUI
+import DesignSystem
 
 @MainActor
 @Observable public class FollowButtonViewModel {
@@ -137,8 +137,6 @@ public struct FollowButton: View {
             viewModel.relationship.showingReblogs
               ? "accessibility.general.toggle.on" : "accessibility.general.toggle.off")
         }
-        .asyncButtonStyle(.none)
-        .disabledWhenLoading()
       }
     }
     .buttonStyle(.bordered)

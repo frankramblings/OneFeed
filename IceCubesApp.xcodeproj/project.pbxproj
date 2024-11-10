@@ -208,6 +208,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		500B202C2D51528600F773E5 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
 		9FF304F52CCA8440007B6B8F /* IceCubesAppIntents */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9FF305022CCA8440007B6B8F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 9FF305032CCA8440007B6B8F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = IceCubesAppIntents; sourceTree = "<group>"; };
 		9FF3053B2CCA8459007B6B8F /* IceCubesAppWidgetsExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9FF3054C2CCA8459007B6B8F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = IceCubesAppWidgetsExtension; sourceTree = "<group>"; };
 		9FF305512CCA8464007B6B8F /* IceCubesNotifications */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9FF305542CCA8464007B6B8F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = IceCubesNotifications; sourceTree = "<group>"; };
@@ -325,6 +326,7 @@
 				9FD542E52962D2CE0045321A /* Lists */,
 				9F35DB4829506F7F00B3281A /* Notifications */,
 				9F29553E292B6AF600E0E81B /* Timeline */,
+				500B202C2D51528600F773E5 /* Components */,
 			);
 			sourceTree = "<group>";
 		};
@@ -713,7 +715,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesNotifications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.notifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -749,7 +751,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesNotifications";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.notifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -788,7 +790,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesAppWidgetsExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.IceCubesAppWidgetsExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -824,7 +826,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesAppWidgetsExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.IceCubesAppWidgetsExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -857,7 +859,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -891,7 +893,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1049,7 +1051,7 @@
 				CURRENT_PROJECT_VERSION = 730;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"IceCubesApp/Resources\"";
-				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 9XH4G9XR8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1075,7 +1077,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89;
 				PRODUCT_NAME = "Ice Cubes";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
@@ -1116,7 +1118,7 @@
 				CURRENT_PROJECT_VERSION = 730;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"IceCubesApp/Resources\"";
-				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				DEVELOPMENT_TEAM = 9XH4G9XR8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1142,7 +1144,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89;
 				PRODUCT_NAME = "Ice Cubes";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
@@ -1188,7 +1190,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesActionExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.action;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1223,7 +1225,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesActionExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanueledigital.IceCubesApp89.action;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
